@@ -11,6 +11,7 @@ export function Login() {
 
     async function Login() {
         const response = await signIn(email, password)
+        console.log(response)
     }
 
     return (
